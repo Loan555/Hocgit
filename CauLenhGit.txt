@@ -1,8 +1,31 @@
-
-$ git init                      #khởi tạo Repo //// cho nay tao lai không muon nhu the nay main ạ// nhung tao cung sua cho nay
-
+--------------------------Khởi tạo repo mới trên git và đưa project lên git
+$ git init                      #khởi tạo Repo
 $ touch 0.txt                   #Tạo một file mới trong thư mục làm việc
 $ git add .                     #đưa vào stage
 $ git commit -m"C0"             #commit
 
-merse lan 2 b loan2
+- Lên web khởi tạo reponsitory
+$ git branch -M main            # tạo branch chính
+$ git remote add origin http:// .... # thêm lên git web
+$ git push -u origin main       # đẩy lên git
+
+-------------------------tao nhanh moi
+$ git add . 
+$ git commit -m "noidung"
+$ git branch    # kiểm tra branch
+$ git branch -M [namebranch]     # tao branch moi
+$ git checkout [namebranch]   # chuyen branch
+$ git push origin [namebranch]
+
+-------------------------merge
+$ git checkout main    # chuyen ve branch main de merge
+$ git merge [namebranch]
+(* nếu có xung đột thì phải mở ra và chọn 1 trong 2 sau đó luu lại)
+(làm việc xong thì phải push lên web)
+
+---------------------pull
+$ git pull 	# bắt đầu làm là phải pull từ nhánh đã được merge vào, làm xong phải đấy lên nhánh phụ để sau này còn merge
+
+****************Các câu lệnh khác:
+$ git log # kiêm tra commit tại nhánh đang đứng
+$ git status # kiểm tra trạng thái
