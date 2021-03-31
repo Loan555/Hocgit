@@ -2,3 +2,5 @@ $ git init                      #khởi tạo Repo
 $ touch 0.txt                   #Tạo một file mới trong thư mục làm việc
 $ git add .                     #đưa vào stage
 $ git commit -m"C0"             #commit
+
+merse lan 2 b loan2
