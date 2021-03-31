@@ -1,4 +1,4 @@
-$ git init                      #khởi tạo Repo //// cho nay tao lai không muon nhu the nay main ạ
+$ git init                      #khởi tạo Repo //// cho nay tao lai không muon nhu the nay main ạ// ok may. tao biet roi
 $ touch 0.txt                   #Tạo một file mới trong thư mục làm việc
 $ git add .                     #đưa vào stage
 $ git commit -m"C0"             #commit
