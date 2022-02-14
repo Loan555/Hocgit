@@ -30,3 +30,8 @@ $ git log # kiêm tra commit tại nhánh đang đứng
 $ git status # kiểm tra trạng thái
 $ git remote show origin	# show thông tin respon đang liên kết tới
 or $git config -e
+
+----------------------config user
+$ git config --global user.name "loanng"
+$ git config --global user.email "loanloannguyen0038@gmail.com"
+$ git config user.name
